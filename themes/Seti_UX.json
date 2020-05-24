@@ -4,7 +4,7 @@
     "colors": {
         "activityBar.activeBackground": "#2a2a2a50",
         "activityBar.background": "#1a1a1a",
-        "activityBar.activeBorder": "#ffffff",
+        "activityBar.activeBorder": "#cd3f45",
         "activityBar.foreground": "#ffffff",
         "activityBar.inactiveForeground": "#ffffff50",
         "activityBarBadge.background": "#ffffff",
@@ -18,8 +18,7 @@
         "editorGutter.background": "#1a1a1a",
         "editorPane.background": "#2a2a2a",
         "activityBar.border": "#00000000",
-        "activityBar.dropBackground": "#2a2a2a",
-        "badge.background": "#ffffff",
+        "badge.background": "#ffd200",
         "badge.foreground": "#1a1a1a",
         "button.background": "#5555f7",
         "button.foreground": "#ffffff",
@@ -141,7 +140,6 @@
         "notificationsWarningIcon.foreground": "#ffffff",
         "panel.background": "#2a2a2a",
         "panel.border": "#00000000",
-        "panel.dropBackground": "#2a2a2a",
         "panelTitle.activeBorder": "#ffffff",
         "peekView.border": "#e1e1e1",
         "peekViewEditor.background": "#1a1a1a",
@@ -329,7 +327,6 @@
                 "markup.deleted",
                 "meta.use.php",
                 "support.other.namespace.use.php",
-                "support.type",
                 "token.debug-token",
                 "token.error-token",
                 "punctuation.definition.class.begin.bracket.curly",
@@ -353,14 +350,14 @@
                 "variable.other.object",
                 "variable.other.php",
                 "variable.other.readwrite.js",
-                "entity.name.class",
                 "variable.language.this",
                 "keyword",
                 "punctuation.section.embedded.begin",
                 "punctuation.section.embedded.end",
                 "string.quoted.double.html",
                 "string.quoted.double.vue-html",
-                "string.quoted.single.html"
+                "string.quoted.single.html",
+                "support.type.property-name.css"
             ],
             "settings": {
                 "foreground": "#ffffff"
@@ -426,8 +423,7 @@
                 "storage.type",
                 "punctuation.definition.template-expression.begin",
                 "punctuation.definition.template-expression.end",
-                "storage.modifier.async",
-                "support.function.misc"
+                "storage.modifier.async"
             ],
             "settings": {
                 "foreground": "#4f6d8c"
@@ -437,7 +433,12 @@
             "scope": [
                 "markup.bold",
                 "markup.italic",
-                "string.other.link.title.markdown"
+                "string.other.link.title.markdown",
+                "variable.other.env",
+                "support.type.primitive.ts",
+                "support.function.calc",
+                "support.function.misc",
+                "support.function.transform"
             ],
             "settings": {
                 "foreground": "#6288a1"
@@ -489,7 +490,8 @@
                 "variable.other.object.property",
                 "keyword.other.important",
                 "meta.function-call",
-                "meta.directive.on.shorthand.vue-html"
+                "meta.directive.on.shorthand.vue-html",
+                "entity.name.class"
             ],
             "settings": {
                 "foreground": "#a074c4"
@@ -563,7 +565,9 @@
                 "keyword.other",
                 "punctuation.definition.heading.markdown",
                 "entity.other.attribute-name.class",
-                "meta.declaration"
+                "meta.declaration",
+                "support.function.js",
+                "support.constant.property-value.css"
             ],
             "settings": {
                 "foreground": "#ff4545"
@@ -586,7 +590,10 @@
             "scope": [
                 "markup.italic",
                 "entity.other.inherited-class.php",
-                "entity.other.alias.php"
+                "entity.other.alias.php",
+                "support.function.calc",
+                "support.function.misc",
+                "support.function.transform"
             ],
             "settings": {
                 "fontStyle": "italic"
