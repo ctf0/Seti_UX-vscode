@@ -212,7 +212,7 @@
         "terminal.ansiGreen": "#ff4545",
         "terminal.ansiMagenta": "#747474",
         "terminal.ansiRed": "#ff4545",
-        "terminal.ansiWhite": "#ff4545",
+        "terminal.ansiWhite": "#525252",
         "terminal.ansiYellow": "#ff4545",
         "terminal.background": "#1a1a1a",
         "terminal.foreground": "#b1b1b1",
@@ -259,13 +259,13 @@
         "symbolIcon.methodForeground": "#a074c4",
         "searchEditor.findMatchBackground": "#009fff",
         "editor.findRangeHighlightBackground": "#ff454530",
-        "gitDecoration.ignoredResourceForeground": "#ffffff",
-        "gitDecoration.addedResourceForeground": "#48ffc2",
+        "gitDecoration.deletedResourceForeground": "#cc686d",
+        "gitDecoration.ignoredResourceForeground": "#b1b1b1",
+        "gitDecoration.addedResourceForeground": "#62cca9",
         "gitDecoration.conflictingResourceForeground": "#a074c4",
-        "gitDecoration.deletedResourceForeground": "#cd3f45",
-        "gitDecoration.modifiedResourceForeground": "#ffd200",
-        "gitDecoration.submoduleResourceForeground": "#009fff",
-        "gitDecoration.untrackedResourceForeground": "#48ffc2",
+        "gitDecoration.modifiedResourceForeground": "#fee27f",
+        "gitDecoration.submoduleResourceForeground": "#33b1ff",
+        "gitDecoration.untrackedResourceForeground": "#62cca9",
         "debugIcon.continueForeground": "#009FFF",
         "debugIcon.pauseForeground": "#FDA200",
         "debugIcon.stepBackForeground": "#D3F0F5",
@@ -500,17 +500,10 @@
         {
             "scope": [
                 "entity.name.tag",
-                "invalid.illegal.unrecognized-tag",
-                "keyword.blade"
+                "invalid.illegal.unrecognized-tag"
             ],
             "settings": {
                 "foreground": "#cd3f45"
-            }
-        },
-        {
-            "scope": [],
-            "settings": {
-                "foreground": "#d3f0f5"
             }
         },
         {
@@ -526,7 +519,10 @@
                 "punctuation.separator.key-value",
                 "meta.tag",
                 "entity.other.inherited-class.php",
-                "entity.other.alias.php"
+                "entity.other.alias.php",
+                "keyword.blade",
+                "punctuation.section.embedded.begin",
+                "punctuation.section.embedded.end"
             ],
             "settings": {
                 "foreground": "#fda200"
@@ -543,7 +539,8 @@
                 "keyword.operator.event-handler-shorthand.vue-html",
                 "punctuation.definition.directive.prefix.vue-html",
                 "variable.other.directive.modifier.vue-html",
-                "meta.attribute.unrecognized"
+                "meta.attribute.unrecognized",
+                "support.class.builtin.js"
             ],
             "settings": {
                 "foreground": "#ffd200"
@@ -593,7 +590,10 @@
                 "entity.other.alias.php",
                 "support.function.calc",
                 "support.function.misc",
-                "support.function.transform"
+                "support.function.transform",
+                "keyword.blade",
+                "punctuation.section.embedded.begin",
+                "punctuation.section.embedded.end"
             ],
             "settings": {
                 "fontStyle": "italic"

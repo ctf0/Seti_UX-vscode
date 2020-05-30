@@ -2,7 +2,7 @@
     "name": "seti-ux",
     "displayName": "Seti_UX",
     "description": "Seti_UX port for vscode",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "publisher": "ctf0",
     "repository": "https://github.com/ctf0/Seti_UX-vscode",
     "author": {
