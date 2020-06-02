@@ -2,7 +2,7 @@
     "$schema": "vscode://schemas/color-theme",
     "type": "dark",
     "colors": {
-        "activityBar.activeBackground": "#2a2a2a50",
+        "activityBar.activeBackground": "#2a2a2a75",
         "activityBar.background": "#1a1a1a",
         "activityBar.activeBorder": "#48FFC2",
         "activityBar.foreground": "#ffffff",
@@ -198,26 +198,26 @@
         "tab.unfocusedInactiveForeground": "#a1a1a1",
         "tab.unfocusedActiveBackground": "#1a1a1a",
         "terminal.border": "#2a2a2a",
-        "terminal.ansiBlack": "#f7f7f7",
-        "terminal.ansiBlue": "#7a7a7a",
-        "terminal.ansiBrightBlack": "#525252",
-        "terminal.ansiBrightBlue": "#686868",
-        "terminal.ansiBrightCyan": "#868686",
-        "terminal.ansiBrightGreen": "#6a6a6a",
-        "terminal.ansiBrightMagenta": "#747474",
-        "terminal.ansiBrightRed": "#7a7a7a",
-        "terminal.ansiBrightWhite": "#f7f7f7",
-        "terminal.ansiBrightYellow": "#a0a0a0",
-        "terminal.ansiCyan": "#868686",
-        "terminal.ansiGreen": "#ff4545",
-        "terminal.ansiMagenta": "#747474",
+        "terminal.ansiBlack": "#3a3a3a",
+        "terminal.ansiBlue": "#ff4545",
+        "terminal.ansiBrightBlack": "#ff4545",
+        "terminal.ansiBrightBlue": "#ff4545",
+        "terminal.ansiBrightCyan": "#94ddff",
+        "terminal.ansiBrightGreen": "#42e0ac",
+        "terminal.ansiBrightMagenta": "#009FFF",
+        "terminal.ansiBrightRed": "#ff4545",
+        "terminal.ansiBrightWhite": "#ffffff",
+        "terminal.ansiBrightYellow": "#ffd200",
+        "terminal.ansiCyan": "#94ddff",
+        "terminal.ansiGreen": "#42e0ac",
+        "terminal.ansiMagenta": "#009FFF",
         "terminal.ansiRed": "#ff4545",
-        "terminal.ansiWhite": "#525252",
-        "terminal.ansiYellow": "#ff4545",
+        "terminal.ansiWhite": "#ffffff",
+        "terminal.ansiYellow": "#ffd200",
         "terminal.background": "#1a1a1a",
         "terminal.foreground": "#b1b1b1",
-        "terminal.selectionBackground": "#b1b1b170",
-        "terminalCursor.background": "#f7f7f7",
+        "terminal.selectionBackground": "#d1d1d150",
+        "terminalCursor.background": "#ffffff",
         "terminalCursor.foreground": "#ff4545",
         "textBlockQuote.background": "#1a1a1a",
         "textBlockQuote.border": "#ffd200",
@@ -296,68 +296,57 @@
                 "constant.other.color",
                 "constant.other.key",
                 "constant.other.symbol",
+                "invalid.illegal",
+                "invalid",
+                "keyword.other.type.php",
+                "keyword",
+                "markup.changed.git_gutter",
                 "markup.changed",
                 "markup.deleted.git_gutter",
+                "markup.deleted",
                 "markup.inserted.git_gutter",
                 "markup.inserted",
                 "markup.raw.block",
                 "markup.strike",
                 "markup.table",
                 "markup.underline",
-                "meta.group.braces.curly constant.other.object.key.js string.unquoted.label.js",
+                "meta.group.braces.curly",
+                "meta.paragraph.markdown",
                 "meta.separator",
                 "meta.tag.sgml",
-                "source.js constant.other.object.key.js string.unquoted.label.js",
-                "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json",
-                "source.json meta.structure.dictionary.json support.type.property-name.json",
-                "string constant.other.placeholder",
-                "string.other.link.description.title.markdown",
-                "string.other.link",
-                "support.constant",
-                "tag.decorator.js entity.name.tag.js",
-                "tag.decorator.js punctuation.definition.tag.js",
-                "token.info-token",
-                "meta.paragraph.markdown",
-                "support.other.variable",
-                "token.warn-token",
-                "string",
-                "invalid.illegal",
-                "invalid",
-                "markup.changed.git_gutter",
-                "markup.deleted",
                 "meta.use.php",
-                "support.other.namespace.use.php",
-                "token.debug-token",
-                "token.error-token",
+                "punctuation.definition.block",
+                "punctuation.definition.begin.bracket",
+                "punctuation.definition.end.bracket",
+                "punctuation.definition.arguments.begin.bracket.round",
+                "punctuation.definition.arguments.end.bracket.round",
                 "punctuation.definition.class.begin.bracket.curly",
                 "punctuation.definition.class.end.bracket.curly",
                 "punctuation.definition.parameters.begin.bracket.round",
                 "punctuation.definition.parameters.end.bracket.round",
                 "punctuation.definition.parameters.begin",
                 "punctuation.definition.parameters.end",
-                "meta.brace",
-                "punctuation.definition.begin.bracket",
-                "punctuation.definition.end.bracket",
-                "punctuation.definition.arguments.begin.bracket.round",
-                "punctuation.definition.arguments.end.bracket.round",
-                "punctuation.definition.block",
                 "punctuation.section.array",
-                "support.class",
-                "support.class.builtin",
+                "punctuation.section.embedded.begin",
+                "punctuation.section.embedded.end",
                 "punctuation.section.embedded",
-                "keyword.other.type.php",
+                "string",
+                "support.class.builtin",
+                "support.class",
+                "support.constant",
+                "support.other.namespace.use.php",
+                "support.other.variable",
+                "support.type.property-name.css",
+                "tag.decorator.js entity.name.tag.js",
+                "tag.decorator.js punctuation.definition.tag.js",
+                "token.debug-token",
+                "token.error-token",
+                "token.info-token",
+                "token.warn-token",
                 "variable.other.constant",
                 "variable.other.object",
                 "variable.other.php",
-                "variable.other.readwrite.js",
-                "variable.language.this",
-                "keyword",
-                "punctuation.section.embedded.begin",
-                "punctuation.section.embedded.end",
-                "string.quoted.double.html",
-                "string.quoted.double.vue-html",
-                "string.quoted.single.html",
-                "support.type.property-name.css"
+                "variable.other.readwrite.js"
             ],
             "settings": {
                 "foreground": "#ffffff"
@@ -398,7 +387,8 @@
                 "meta.directive.v-.vue-html",
                 "meta.directive.bind.shorthand.vue-html",
                 "entity.other.attribute-name",
-                "fenced_code.block.language.markdown"
+                "fenced_code.block.language.markdown",
+                "variable.parameter.js"
             ],
             "settings": {
                 "foreground": "#48ffc2"
@@ -406,8 +396,6 @@
         },
         {
             "scope": [
-                "comment",
-                "punctuation.definition.comment",
                 "markup.raw.block.fenced.markdown",
                 "markup.heading.setext",
                 "meta.separator.markdown"
@@ -418,6 +406,7 @@
         },
         {
             "scope": [
+                "comment",
                 "storage.modifier.php",
                 "punctuation.definition.variable.php",
                 "storage.type",
@@ -468,6 +457,14 @@
         },
         {
             "scope": [
+                "variable.language.this"
+            ],
+            "settings": {
+                "foreground": "#8eb9d6"
+            }
+        },
+        {
+            "scope": [
                 "meta.tag.structure",
                 "meta.tag.custom"
             ],
@@ -486,15 +483,22 @@
         },
         {
             "scope": [
-                "variable.other.property",
+                "meta.function-call"
+            ],
+            "settings": {
+                "foreground": "#a074c4"
+            }
+        },
+        {
+            "scope": [
                 "variable.other.object.property",
+                "variable.other.property",
                 "keyword.other.important",
-                "meta.function-call",
                 "meta.directive.on.shorthand.vue-html",
                 "entity.name.class"
             ],
             "settings": {
-                "foreground": "#a074c4"
+                "foreground": "#cf3be9"
             }
         },
         {
@@ -522,7 +526,8 @@
                 "entity.other.alias.php",
                 "keyword.blade",
                 "punctuation.section.embedded.begin",
-                "punctuation.section.embedded.end"
+                "punctuation.section.embedded.end",
+                "meta.brace"
             ],
             "settings": {
                 "foreground": "#fda200"
@@ -540,7 +545,8 @@
                 "punctuation.definition.directive.prefix.vue-html",
                 "variable.other.directive.modifier.vue-html",
                 "meta.attribute.unrecognized",
-                "support.class.builtin.js"
+                "support.class.builtin.js",
+                "support.class.console.js"
             ],
             "settings": {
                 "foreground": "#ffd200"
@@ -564,7 +570,9 @@
                 "entity.other.attribute-name.class",
                 "meta.declaration",
                 "support.function.js",
-                "support.constant.property-value.css"
+                "support.constant.property-value.css",
+                "punctuation.definition.comment",
+                "meta.function-call.js"
             ],
             "settings": {
                 "foreground": "#ff4545"
@@ -593,7 +601,8 @@
                 "support.function.transform",
                 "keyword.blade",
                 "punctuation.section.embedded.begin",
-                "punctuation.section.embedded.end"
+                "punctuation.section.embedded.end",
+                "variable.language.this"
             ],
             "settings": {
                 "fontStyle": "italic"

@@ -14,3 +14,8 @@
 - change sidebar gitDecoration colors
 - fix terminal ansiWhite
 - make blade directives italic
+
+## 0.0.4
+
+- better js
+- more colors to terminal
