@@ -19,3 +19,9 @@
 
 - better js
 - more colors to terminal
+
+## 0.0.5
+
+- better terminal colors
+- fix `$this` color for php
+- better lineHighlight

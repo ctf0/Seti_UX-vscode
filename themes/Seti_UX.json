@@ -43,7 +43,7 @@
         "editor.findRangeHighlightBorder": "#00000000",
         "editor.foreground": "#ffffff",
         "editor.hoverHighlightBackground": "#ff454530",
-        "editor.lineHighlightBackground": "#3a3a3a",
+        "editor.lineHighlightBackground": "#2a2a2a50",
         "editor.lineHighlightBorder": "#00000000",
         "editor.rangeHighlightBorder": "#00000000",
         "editor.selectionForeground": "#ffffff",
@@ -203,19 +203,19 @@
         "terminal.ansiBrightBlack": "#ff4545",
         "terminal.ansiBrightBlue": "#ff4545",
         "terminal.ansiBrightCyan": "#94ddff",
-        "terminal.ansiBrightGreen": "#42e0ac",
+        "terminal.ansiBrightGreen": "#ffd200",
         "terminal.ansiBrightMagenta": "#009FFF",
         "terminal.ansiBrightRed": "#ff4545",
         "terminal.ansiBrightWhite": "#ffffff",
-        "terminal.ansiBrightYellow": "#ffd200",
+        "terminal.ansiBrightYellow": "#42e0ac",
         "terminal.ansiCyan": "#94ddff",
-        "terminal.ansiGreen": "#42e0ac",
+        "terminal.ansiGreen": "#ffd200",
         "terminal.ansiMagenta": "#009FFF",
         "terminal.ansiRed": "#ff4545",
         "terminal.ansiWhite": "#ffffff",
-        "terminal.ansiYellow": "#ffd200",
+        "terminal.ansiYellow": "#42e0ac",
         "terminal.background": "#1a1a1a",
-        "terminal.foreground": "#b1b1b1",
+        "terminal.foreground": "#f1f1f1",
         "terminal.selectionBackground": "#d1d1d150",
         "terminalCursor.background": "#ffffff",
         "terminalCursor.foreground": "#ff4545",
@@ -346,7 +346,8 @@
                 "variable.other.constant",
                 "variable.other.object",
                 "variable.other.php",
-                "variable.other.readwrite.js"
+                "variable.other.readwrite.js",
+                "variable.language.this.php"
             ],
             "settings": {
                 "foreground": "#ffffff"
@@ -457,10 +458,10 @@
         },
         {
             "scope": [
-                "variable.language.this"
+                "variable.language.this.js"
             ],
             "settings": {
-                "foreground": "#8eb9d6"
+                "foreground": "#96c4e2"
             }
         },
         {
