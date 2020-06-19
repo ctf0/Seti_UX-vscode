@@ -25,3 +25,9 @@
 - better terminal colors
 - fix `$this` color for php
 - better lineHighlight
+
+## 0.0.6
+
+- add link to custom-css
+- re-enable forground for `hint,info,warning,error`, so the notification icon can show up
+- fix find match background highlight

@@ -22,7 +22,7 @@ a vscode port for [Seti_ST3](https://github.com/ctf0/Seti_ST3) & [Seti_UX](https
 
 ### Custom css
 
-- will be added soon
+- [gist](https://gist.github.com/ctf0/bebe3f0884664ee6e4eb6972f560e5a7)
 
 ### Notes
 
