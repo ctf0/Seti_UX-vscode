@@ -31,3 +31,8 @@
 - add link to custom-css
 - re-enable forground for `hint,info,warning,error`, so the notification icon can show up
 - fix find match background highlight
+
+## 0.0.7
+
+- change the main color to something less dark
+- switched terminal green & yellow to its correct colors
