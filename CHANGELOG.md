@@ -36,3 +36,9 @@
 
 - change the main color to something less dark
 - switched terminal green & yellow to its correct colors
+
+## 0.0.8
+
+- revert back the darker version & now you can choose between
+- modularized the theme so its easier to extend
+- color more scopes

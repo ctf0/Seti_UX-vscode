@@ -6,7 +6,7 @@ a vscode port for [Seti_ST3](https://github.com/ctf0/Seti_ST3) & [Seti_UX](https
 
 - to change the tab dirty colors, add
 
-    ```json
+    ```jsonc
     "workbench.colorCustomizations": {
         // ...
         "[Seti_UX]": {

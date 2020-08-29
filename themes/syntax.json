@@ -1,0 +1,338 @@
+{
+    "$schema": "vscode://schemas/color-theme",
+    "type": "dark",
+    "semanticHighlighting": true,
+    "tokenColors": [
+        {
+            "scope": [
+                "*link*",
+                "*uri*",
+                "*url*",
+                "constant.character",
+                "constant.escape",
+                "constant.other.color",
+                "constant.other.key",
+                "constant.other.symbol",
+                "invalid.illegal",
+                "invalid",
+                "keyword.other.type.php",
+                "keyword",
+                "markup.changed.git_gutter",
+                "markup.changed",
+                "markup.deleted.git_gutter",
+                "markup.deleted",
+                "markup.inserted.git_gutter",
+                "markup.inserted",
+                "markup.raw.block",
+                "markup.strike",
+                "markup.table",
+                "markup.underline",
+                "meta.group.braces.curly",
+                "meta.paragraph.markdown",
+                "meta.separator",
+                "meta.tag.sgml",
+                "meta.use.php",
+                "punctuation.definition.block",
+                "punctuation.definition.begin.bracket",
+                "punctuation.definition.end.bracket",
+                "punctuation.definition.arguments.begin.bracket.round",
+                "punctuation.definition.arguments.end.bracket.round",
+                "punctuation.definition.class.begin.bracket.curly",
+                "punctuation.definition.class.end.bracket.curly",
+                "punctuation.definition.parameters.begin.bracket.round",
+                "punctuation.definition.parameters.end.bracket.round",
+                "punctuation.definition.parameters.begin",
+                "punctuation.definition.parameters.end",
+                "punctuation.section.array",
+                "punctuation.section.embedded.begin",
+                "punctuation.section.embedded.end",
+                "punctuation.section.embedded",
+                "string",
+                "support.class.php",
+                "support.class.builtin",
+                "support.constant",
+                "support.other.namespace.use.php",
+                "support.other.variable",
+                "support.type.property-name.css",
+                "tag.decorator.js entity.name.tag.js",
+                "tag.decorator.js punctuation.definition.tag.js",
+                "token.debug-token",
+                "token.error-token",
+                "token.info-token",
+                "token.warn-token",
+                "variable.other.constant",
+                "variable.other.object",
+                "variable.other.php",
+                "variable.other.readwrite.js",
+                "variable.language.this.php"
+            ],
+            "settings": {
+                "foreground": "#ffffff"
+            }
+        },
+        {
+            "scope": [
+                "string.quoted.double",
+                "string.quoted.single",
+                "punctuation.definition.string",
+                "keyword.other.use.php",
+                "keyword.other.namespace.php",
+                "support.constant.media",
+                "string.template",
+                "markup.quote punctuation.definition.blockquote.markdown",
+                "markup.underline.link.markdown",
+                "markup.inline.raw.string.markdown",
+                "markup.quote",
+                "punctuation.separator.key-value.html",
+                "punctuation.separater.key-value.vue-html"
+            ],
+            "settings": {
+                "foreground": "#009fff"
+            }
+        },
+        {
+            "scope": [
+                "keyword.other.use-as.php",
+                "keyword.control",
+                "storage.modifier",
+                "meta.attribute",
+                "meta.tag.block.any",
+                "meta.tag.inline.any",
+                "meta.tag.other",
+                "meta.tag.any",
+                "meta.directive.vue",
+                "entity.name.directive.vue-html",
+                "meta.directive.v-.vue-html",
+                "meta.directive.bind.shorthand.vue-html",
+                "entity.other.attribute-name",
+                "fenced_code.block.language.markdown"
+            ],
+            "settings": {
+                "foreground": "#48ffc2"
+            }
+        },
+        {
+            "scope": [
+                "markup.raw.block.fenced.markdown",
+                "markup.heading.setext",
+                "meta.separator.markdown"
+            ],
+            "settings": {
+                "foreground": "#41535b"
+            }
+        },
+        {
+            "scope": [
+                "comment",
+                "storage.modifier.php",
+                "punctuation.definition.variable.php",
+                "storage.type",
+                "storage.modifier.async"
+            ],
+            "settings": {
+                "foreground": "#4f6d8c"
+            }
+        },
+        {
+            "scope": [
+                "markup.bold",
+                "markup.italic",
+                "string.other.link.title.markdown",
+                "variable.other.env",
+                "support.type.primitive.ts",
+                "support.function.calc",
+                "support.function.misc",
+                "support.function.transform",
+                "variable.parameter"
+            ],
+            "settings": {
+                "foreground": "#6288a1"
+            }
+        },
+        {
+            "scope": [
+                "entity.name.type.namespace.php",
+                "support.other.namespace.php"
+            ],
+            "settings": {
+                "foreground": "#735154"
+            }
+        },
+        {
+            "scope": [
+                "keyword.other.phpdoc.php",
+                "punctuation.definition.block.tag",
+                "storage.type.class.jsdoc",
+                "string.regexp",
+                "entity.name.section.markdown",
+                "support.constant.property-value",
+                "punctuation.definition.template-expression.begin",
+                "punctuation.definition.template-expression.end"
+            ],
+            "settings": {
+                "foreground": "#7aced3"
+            }
+        },
+        {
+            "scope": [
+                "meta.tag.structure",
+                "meta.tag.custom"
+            ],
+            "settings": {
+                "foreground": "#93c0c6"
+            }
+        },
+        {
+            "scope": [
+                "variable.argument",
+                "constant.other.reference.link.markdown"
+            ],
+            "settings": {
+                "foreground": "#94ddff"
+            }
+        },
+        {
+            "scope": [
+                "meta.function-call"
+            ],
+            "settings": {
+                "foreground": "#a074c4"
+            }
+        },
+        {
+            "scope": [
+                "variable.other.object.property",
+                "variable.object.property",
+                "variable.other.property",
+                "keyword.other.important",
+                "meta.directive.on.shorthand.vue-html",
+                "entity.name.class"
+            ],
+            "settings": {
+                "foreground": "#cf3be9"
+            }
+        },
+        {
+            "scope": [
+                "entity.name.tag",
+                "invalid.illegal.unrecognized-tag"
+            ],
+            "settings": {
+                "foreground": "#cd3f45"
+            }
+        },
+        {
+            "scope": [
+                "punctuation",
+                "keyword.operator",
+                "storage.type.function.arrow",
+                "punctuation.accessor",
+                "punctuation.definition.string.begin.markdown",
+                "punctuation.definition.string.end.markdown",
+                "support.function.construct.begin",
+                "support.function.construct.end",
+                "punctuation.separator.key-value",
+                "meta.tag",
+                "entity.other.inherited-class.php",
+                "entity.other.alias.php",
+                "keyword.blade",
+                "punctuation.section.embedded.begin",
+                "punctuation.section.embedded.end",
+                "meta.brace",
+                "punctuation.definition.string.template.begin",
+                "punctuation.definition.string.template.end"
+            ],
+            "settings": {
+                "foreground": "#fda200"
+            }
+        },
+        {
+            "scope": [
+                "storage.type.function",
+                "storage.type.class",
+                "keyword.operator.new",
+                "constant.character.escape",
+                "entity.name.function.blade",
+                "source.directive.vue",
+                "keyword.operator.event-handler-shorthand.vue-html",
+                "punctuation.definition.directive.prefix.vue-html",
+                "variable.other.directive.modifier.vue-html",
+                "meta.attribute.unrecognized",
+                "support.class.builtin.js",
+                "support.class.console.js",
+                "variable.language.this"
+            ],
+            "settings": {
+                "foreground": "#ffdc11"
+            }
+        },
+        {
+            "scope": [
+                "constant.language",
+                "entity.name.type",
+                "entity.name.type.class",
+                "entity.name.module.js",
+                "entity.name.method.js",
+                "entity.name.function.php",
+                "entity.name.function.js",
+                "entity.name.function.ts",
+                "storage.type.php",
+                "support.class",
+                "constant.numeric",
+                "keyword.other.class.php",
+                "keyword.other",
+                "punctuation.definition.heading.markdown",
+                "entity.other.attribute-name.class",
+                "meta.declaration",
+                "support.function.js",
+                "support.constant.property-value.css",
+                "punctuation.definition.comment",
+                "meta.function-call.js",
+                "support.function.magic.php"
+            ],
+            "settings": {
+                "foreground": "#ff4545"
+            }
+        },
+        {
+            "scope": [
+                "*link*",
+                "*uri*",
+                "*url*",
+                "markup.strike",
+                "markup.underline",
+                "variable.parameter"
+            ],
+            "settings": {
+                "fontStyle": "underline"
+            }
+        },
+        {
+            "scope": [
+                "markup.italic",
+                "entity.other.inherited-class.php",
+                "entity.other.alias.php",
+                "support.function.calc",
+                "support.function.misc",
+                "support.function.transform",
+                "keyword.blade",
+                "punctuation.section.embedded.begin",
+                "punctuation.section.embedded.end",
+                "variable.language.this",
+                "variable.parameter"
+            ],
+            "settings": {
+                "fontStyle": "italic"
+            }
+        },
+        {
+            "scope": [
+                "markup.bold",
+                "variable.other.constant"
+            ],
+            "settings": {
+                "fontStyle": "bold"
+            }
+        }
+    ]
+}

@@ -2,7 +2,7 @@
     "name": "seti-ux",
     "displayName": "Seti_UX",
     "description": "Seti_UX port for vscode",
-    "version": "0.0.7",
+    "version": "0.0.8",
     "publisher": "ctf0",
     "repository": "https://github.com/ctf0/Seti_UX-vscode",
     "author": {
@@ -20,9 +20,14 @@
     "contributes": {
         "themes": [
             {
-                "label": "Seti_UX",
+                "label": "Seti_UX (Blue)",
                 "uiTheme": "vs-dark",
-                "path": "./themes/Seti_UX.json"
+                "path": "./themes/blue-color-theme.json"
+            },
+            {
+                "label": "Seti_UX (Black)",
+                "uiTheme": "vs-dark",
+                "path": "./themes/black-color-theme.json"
             }
         ]
     }
