@@ -4,21 +4,7 @@ a vscode port for [Seti_ST3](https://github.com/ctf0/Seti_ST3) & [Seti_UX](https
 
 ## Config
 
-- to change the tab dirty colors, add
-
-    ```jsonc
-    "workbench.colorCustomizations": {
-        // ...
-        "[Seti_UX]": {
-            "tab.activeModifiedBorder": "#ff4545",
-            "tab.inactiveModifiedBorder": "#ff454580",
-            "tab.unfocusedActiveModifiedBorder": "#ff454580",
-            "tab.unfocusedInactiveModifiedBorder": "#ff454540",
-        },
-    }
-    ```
-
-- also check [Customizing a Color Theme](https://code.visualstudio.com/docs/getstarted/themes#_customizing-a-color-theme) for any extra customizations needed.
+- check [Customizing a Color Theme](https://code.visualstudio.com/docs/getstarted/themes#_customizing-a-color-theme) for any extra customizations needed.
 
 ### Custom css
 

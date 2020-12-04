@@ -42,3 +42,9 @@
 - revert back the darker version & now you can choose between
 - modularized the theme so its easier to extend
 - color more scopes
+
+## 0.1.0
+
+- better vue (using `https://github.com/znck/vue-developer-experience`)
+- better regex
+- fix class & attributes hl in css

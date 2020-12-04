@@ -59,12 +59,12 @@
                 "token.error-token",
                 "token.info-token",
                 "token.warn-token",
-                "variable.other.constant",
                 "variable.other.object",
                 "variable.other.php",
                 "variable.other.readwrite.js",
                 "variable.language.this.php",
-                "support.class.php"
+                "support.class.php",
+                "meta.property-list entity.name.tag.css"
             ],
             "settings": {
                 "foreground": "#ffffff"
@@ -85,7 +85,8 @@
                 "markup.quote",
                 "punctuation.separator.key-value.html",
                 "punctuation.separater.key-value.vue-html",
-                "source.env string.quoted.double.env variable.other.env"
+                "source.env string.quoted.double.env variable.other.env",
+                "meta.element.input.vue-html"
             ],
             "settings": {
                 "foreground": "#009fff"
@@ -106,7 +107,8 @@
                 "meta.directive.v-.vue-html",
                 "meta.directive.bind.shorthand.vue-html",
                 "entity.other.attribute-name",
-                "fenced_code.block.language.markdown"
+                "fenced_code.block.language.markdown",
+                "entity.other.attribute-name.class.css"
             ],
             "settings": {
                 "foreground": "#48ffc2"
@@ -140,7 +142,6 @@
                 "markup.italic",
                 "string.other.link.title.markdown",
                 "source.env variable.other.env",
-                "support.type.primitive.ts",
                 "support.function.calc",
                 "support.function.misc",
                 "support.function.transform",
@@ -166,11 +167,9 @@
                 "storage.type.class.jsdoc",
                 "string.regexp",
                 "entity.name.section.markdown",
-                "support.constant.property-value",
-                "constant.other.class.php",
-                "support.constant.core.php",
                 "punctuation.definition.template-expression.begin",
-                "punctuation.definition.template-expression.end"
+                "punctuation.definition.template-expression.end",
+                "constant.character.escape.backslash.regexp"
             ],
             "settings": {
                 "foreground": "#7aced3"
@@ -189,7 +188,8 @@
             "scope": [
                 "variable.argument",
                 "constant.other.reference.link.markdown",
-                "variable.language.this"
+                "variable.language.this",
+                "meta.interpolation variable.other.readwrite.js"
             ],
             "settings": {
                 "foreground": "#94ddff"
@@ -197,10 +197,22 @@
         },
         {
             "scope": [
-                "meta.function-call"
+                "meta.function-call",
+                "support.type.primitive.ts"
             ],
             "settings": {
                 "foreground": "#a074c4"
+            }
+        },
+        {
+            "scope": [
+                "variable.other.constant",
+                "constant.other.class.php",
+                "support.constant.core.php",
+                "support.constant.property-value"
+            ],
+            "settings": {
+                "foreground": "#b89094"
             }
         },
         {
@@ -210,7 +222,9 @@
                 "variable.other.property",
                 "keyword.other.important",
                 "meta.directive.on.shorthand.vue-html",
-                "entity.name.class"
+                "entity.name.class",
+                "constant.other.character-class.regexp",
+                "keyword.operator.quantifier.regexp"
             ],
             "settings": {
                 "foreground": "#cf3be9"
@@ -244,7 +258,10 @@
                 "punctuation.section.embedded.end",
                 "meta.brace",
                 "punctuation.definition.string.template.begin",
-                "punctuation.definition.string.template.end"
+                "punctuation.definition.string.template.end",
+                "meta.directive.vue punctuation.separator.key-value.html",
+                "punctuation.definition.directive.prefix.vue-html",
+                "keyword.operator.event-handler-shorthand.vue-html"
             ],
             "settings": {
                 "foreground": "#fda200"
@@ -255,15 +272,16 @@
                 "storage.type.function",
                 "storage.type.class",
                 "keyword.operator.new",
-                "constant.character.escape",
                 "entity.name.function.blade",
                 "source.directive.vue",
-                "keyword.operator.event-handler-shorthand.vue-html",
-                "punctuation.definition.directive.prefix.vue-html",
-                "variable.other.directive.modifier.vue-html",
                 "meta.attribute.unrecognized",
                 "support.class.builtin.js",
-                "support.class.console.js"
+                "support.class.console.js",
+                "constant.character.escape",
+                "meta.directive.for.vue-html variable.other.readwrite.js",
+                "meta.directive.v-.vue-html variable.other.readwrite.js",
+                "meta.directive.bind.shorthand.vue-html variable.other.object.js",
+                "meta.directive.bind.shorthand.vue-html variable.other.readwrite.js"
             ],
             "settings": {
                 "foreground": "#ffdc11"
@@ -292,7 +310,8 @@
                 "support.constant.property-value.css",
                 "punctuation.definition.comment",
                 "meta.function-call.js",
-                "support.function.magic.php"
+                "support.function.magic.php",
+                "variable.other.directive.modifier.vue-html"
             ],
             "settings": {
                 "foreground": "#ff4545"
@@ -305,7 +324,11 @@
                 "*url*",
                 "markup.strike",
                 "markup.underline",
-                "variable.parameter"
+                "variable.parameter",
+                "variable.other.constant",
+                "constant.character.escape",
+                "meta.directive.v-.vue-html variable.other.readwrite.js",
+                "entity.name.tag.css"
             ],
             "settings": {
                 "fontStyle": "underline"
@@ -323,7 +346,9 @@
                 "punctuation.section.embedded.begin",
                 "punctuation.section.embedded.end",
                 "variable.language.this",
-                "variable.parameter"
+                "variable.parameter",
+                "meta.directive.bind.shorthand.vue-html variable.other.object.js",
+                "meta.directive.bind.shorthand.vue-html variable.other.readwrite.js"
             ],
             "settings": {
                 "fontStyle": "italic"
@@ -331,8 +356,15 @@
         },
         {
             "scope": [
-                "markup.bold",
-                "variable.other.constant"
+                "meta.directive.for.vue-html variable.other.readwrite.js"
+            ],
+            "settings": {
+                "fontStyle": "italic underline"
+            }
+        },
+        {
+            "scope": [
+                "markup.bold"
             ],
             "settings": {
                 "fontStyle": "bold"
