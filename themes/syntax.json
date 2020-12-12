@@ -108,7 +108,8 @@
                 "meta.directive.bind.shorthand.vue-html",
                 "entity.other.attribute-name",
                 "fenced_code.block.language.markdown",
-                "entity.other.attribute-name.class.css"
+                "entity.other.attribute-name.class.css",
+                "storage.type.alias.shell"
             ],
             "settings": {
                 "foreground": "#48ffc2"
@@ -145,7 +146,10 @@
                 "support.function.calc",
                 "support.function.misc",
                 "support.function.transform",
-                "variable.parameter"
+                "variable.parameter",
+                "constant.other.option.shell",
+                "constant.other.option.dash.shell",
+                "source.nginx variable"
             ],
             "settings": {
                 "foreground": "#6288a1"
@@ -169,7 +173,8 @@
                 "entity.name.section.markdown",
                 "punctuation.definition.template-expression.begin",
                 "punctuation.definition.template-expression.end",
-                "constant.character.escape.backslash.regexp"
+                "constant.character.escape.backslash.regexp",
+                "meta.argument.shell"
             ],
             "settings": {
                 "foreground": "#7aced3"
@@ -209,7 +214,9 @@
                 "variable.other.constant",
                 "constant.other.class.php",
                 "support.constant.core.php",
-                "support.constant.property-value"
+                "support.constant.property-value",
+                "support.class.exception",
+                "variable.other.assignment.shell"
             ],
             "settings": {
                 "foreground": "#b89094"
@@ -224,7 +231,8 @@
                 "meta.directive.on.shorthand.vue-html",
                 "entity.name.class",
                 "constant.other.character-class.regexp",
-                "keyword.operator.quantifier.regexp"
+                "keyword.operator.quantifier.regexp",
+                "support.function.builtin.shell"
             ],
             "settings": {
                 "foreground": "#cf3be9"
@@ -261,7 +269,8 @@
                 "punctuation.definition.string.template.end",
                 "meta.directive.vue punctuation.separator.key-value.html",
                 "punctuation.definition.directive.prefix.vue-html",
-                "keyword.operator.event-handler-shorthand.vue-html"
+                "keyword.operator.event-handler-shorthand.vue-html",
+                "source.nginx constant.character"
             ],
             "settings": {
                 "foreground": "#fda200"
@@ -311,7 +320,11 @@
                 "punctuation.definition.comment",
                 "meta.function-call.js",
                 "support.function.magic.php",
-                "variable.other.directive.modifier.vue-html"
+                "variable.other.directive.modifier.vue-html",
+                "support.function.constructor",
+                "meta.function.parameter.typehinted.php support.class.php",
+                "meta.function.parameter.typehinted.php support.class.builtin.php",
+                "meta.function.shell"
             ],
             "settings": {
                 "foreground": "#ff4545"
