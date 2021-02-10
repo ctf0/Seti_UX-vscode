@@ -1,27 +1,37 @@
-# Seti_UX
+<h1 align="center">Seti_UX</h1>
 
-a vscode port for [Seti_ST3](https://github.com/ctf0/Seti_ST3) & [Seti_UX](https://github.com/ctf0/Seti_UX)
+<p align="center">
+    a vscode port for
+    <a href="https://github.com/ctf0/Seti_ST3">Seti_ST3</a> & <a href="https://github.com/ctf0/Seti_UX">Seti_UX</a>
+</p>
 
-- Markdown
-![md](https://user-images.githubusercontent.com/7388088/102901451-4fc3e500-4476-11eb-99a8-47384a960f6e.png)
+<h3 align="right">Markdown</h3>
 
-- Php
-![php](https://user-images.githubusercontent.com/7388088/102901454-52263f00-4476-11eb-9054-189b179517e2.png)
+[![md](https://user-images.githubusercontent.com/7388088/102901451-4fc3e500-4476-11eb-99a8-47384a960f6e.png)](https://user-images.githubusercontent.com/7388088/102901451-4fc3e500-4476-11eb-99a8-47384a960f6e.png)
 
-- Css/Scss
-![css](https://user-images.githubusercontent.com/7388088/102901455-52bed580-4476-11eb-8a16-eb44996781a4.png)
+<h3 align="right">Php</h3>
 
-- Js
-![js](https://user-images.githubusercontent.com/7388088/102901456-53576c00-4476-11eb-8ef5-a38b5eccdf2c.png)
+[![php](https://user-images.githubusercontent.com/7388088/102901454-52263f00-4476-11eb-9054-189b179517e2.png)](https://user-images.githubusercontent.com/7388088/102901454-52263f00-4476-11eb-9054-189b179517e2.png)
 
-- Shell
-![shell](https://user-images.githubusercontent.com/7388088/102901873-ceb91d80-4476-11eb-8b08-d5ca5a388cad.png)
+<h3 align="right">Css/Scss</h3>
 
-- Vue
-![vue](https://user-images.githubusercontent.com/7388088/102901881-d11b7780-4476-11eb-84c6-812abaab81cc.png)
+[![css](https://user-images.githubusercontent.com/7388088/102901455-52bed580-4476-11eb-8a16-eb44996781a4.png)](https://user-images.githubusercontent.com/7388088/102901455-52bed580-4476-11eb-8a16-eb44996781a4.png)
 
-- Blade/Html
-![blade](https://user-images.githubusercontent.com/7388088/102901884-d1b40e00-4476-11eb-813b-f76de14d6bc6.png)
+<h3 align="right">Js</h3>
+
+[![js](https://user-images.githubusercontent.com/7388088/102901456-53576c00-4476-11eb-8ef5-a38b5eccdf2c.png)](https://user-images.githubusercontent.com/7388088/102901456-53576c00-4476-11eb-8ef5-a38b5eccdf2c.png)
+
+<h3 align="right">Shell</h3>
+
+[![shell](https://user-images.githubusercontent.com/7388088/102901873-ceb91d80-4476-11eb-8b08-d5ca5a388cad.png)](https://user-images.githubusercontent.com/7388088/102901873-ceb91d80-4476-11eb-8b08-d5ca5a388cad.png)
+
+<h3 align="right">Vue</h3>
+
+[![vue](https://user-images.githubusercontent.com/7388088/102901881-d11b7780-4476-11eb-84c6-812abaab81cc.png)](https://user-images.githubusercontent.com/7388088/102901881-d11b7780-4476-11eb-84c6-812abaab81cc.png)
+
+<h3 align="right">Blade/Html</h3>
+
+[![blade](https://user-images.githubusercontent.com/7388088/102901884-d1b40e00-4476-11eb-813b-f76de14d6bc6.png)](https://user-images.githubusercontent.com/7388088/102901884-d1b40e00-4476-11eb-813b-f76de14d6bc6.png)
 
 <br>
 
@@ -48,3 +58,4 @@ a vscode port for [Seti_ST3](https://github.com/ctf0/Seti_ST3) & [Seti_UX](https
 
 - [vue](https://github.com/znck/vue-developer-experience)
 - [shell](https://github.com/jeff-hykin/better-shell-syntax)
+- [blade](https://github.com/onecentlin/laravel-blade-snippets-vscode)
