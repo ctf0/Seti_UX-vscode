@@ -72,8 +72,7 @@
         },
         {
             "scope": [
-                "string.quoted.double",
-                "string.quoted.single",
+                "string.quoted",
                 "keyword.other.use.php",
                 "keyword.other.namespace.php",
                 "support.constant.media",
@@ -115,7 +114,8 @@
                 "text.html.markdown meta.attribute invalid",
                 "text.html.markdown meta.attribute",
                 "meta.diff.header.to-file",
-                "markup.inserted.diff"
+                "markup.inserted.diff",
+                "invalid.deprecated.entity.other.attribute-name.html"
             ],
             "settings": {
                 "foreground": "#48ffc2"
@@ -235,6 +235,7 @@
             "scope": [
                 "variable.other.object.property",
                 "variable.object.property",
+                "meta.object-literal.key.js",
                 "variable.other.property",
                 "keyword.other.important",
                 "meta.directive.on.shorthand.vue-html",
@@ -291,7 +292,8 @@
                 "punctuation.definition.block.open.begin.vue",
                 "punctuation.definition.block.open.end.vue",
                 "punctuation.definition.block.close.begin.vue",
-                "punctuation.definition.block.close.end.vue"
+                "punctuation.definition.block.close.end.vue",
+                "keyword.definition.arrow.php"
             ],
             "settings": {
                 "foreground": "#fda200"
@@ -341,6 +343,8 @@
                 "support.constant.property-value.css",
                 "punctuation.definition.comment",
                 "meta.function-call.js",
+                "meta.function-call.js support.class.builtin.js",
+                "meta.function-call.ts support.class.builtin.ts",
                 "support.function.magic.php",
                 "variable.other.directive.modifier.vue-html",
                 "support.function.constructor",
