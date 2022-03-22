@@ -15,7 +15,6 @@
                 "constant.other.symbol",
                 "invalid.illegal",
                 "invalid",
-                "keyword.other.type.php",
                 "keyword",
                 "markup.changed.git_gutter",
                 "markup.changed",
@@ -63,11 +62,11 @@
                 "variable.other.php",
                 "variable.other.readwrite.js",
                 "variable.language.this.php",
-                "support.class.php",
-                "string.template meta.template.expression"
+                "string.template meta.template.expression",
+                "meta.class.body.php constant.other.php"
             ],
             "settings": {
-                "foreground": "#ffffff"
+                "foreground": "#FFFFFF"
             }
         },
         {
@@ -87,10 +86,12 @@
                 "code.log string.quoted",
                 "punctuation.definition.string",
                 "string.quoted keyword.other",
-                "meta.diff.index"
+                "meta.diff.index",
+                "source.makefile",
+                "meta.scope.prerequisites.makefile"
             ],
             "settings": {
-                "foreground": "#009fff"
+                "foreground": "#009FFF"
             }
         },
         {
@@ -108,7 +109,7 @@
                 "meta.directive.v-.vue-html",
                 "meta.directive.bind.shorthand.vue-html",
                 "entity.other.attribute-name",
-                "fenced_code.block.language.markdown",
+                "fenced_code.block.language",
                 "entity.other.attribute-name.class.css",
                 "storage.type.alias.shell",
                 "text.html.markdown meta.attribute invalid",
@@ -118,7 +119,7 @@
                 "invalid.deprecated.entity.other.attribute-name.html"
             ],
             "settings": {
-                "foreground": "#48ffc2"
+                "foreground": "#48FFC2"
             }
         },
         {
@@ -129,7 +130,7 @@
                 "string.other.link.description.markdown"
             ],
             "settings": {
-                "foreground": "#41535b"
+                "foreground": "#41535B"
             }
         },
         {
@@ -138,10 +139,12 @@
                 "storage.modifier.php",
                 "punctuation.definition.variable.php",
                 "storage.type",
-                "storage.modifier.async"
+                "meta.class.ts meta.method.declaration.ts meta.var.expr.ts storage.type.ts",
+                "storage.modifier.async",
+                "markup.fenced_code.block"
             ],
             "settings": {
-                "foreground": "#4f6d8c"
+                "foreground": "#4F6D8C"
             }
         },
         {
@@ -157,10 +160,11 @@
                 "constant.other.option.shell",
                 "constant.other.option.dash.shell",
                 "source.nginx variable",
-                "meta.diff.header"
+                "meta.diff.header",
+                "entity.name.function.target.makefile"
             ],
             "settings": {
-                "foreground": "#6288a1"
+                "foreground": "#6288A1"
             }
         },
         {
@@ -182,19 +186,22 @@
                 "punctuation.definition.template-expression.begin",
                 "punctuation.definition.template-expression.end",
                 "constant.character.escape.backslash.regexp",
-                "meta.argument.shell"
+                "meta.argument.shell",
+                "keyword.other.type.php",
+                "meta.function.php keyword.other.type.php"
             ],
             "settings": {
-                "foreground": "#7aced3"
+                "foreground": "#7ACED3"
             }
         },
         {
             "scope": [
                 "meta.tag.structure",
-                "meta.tag.custom"
+                "meta.tag.custom",
+                "meta.method-call.static.php entity.name.function.php"
             ],
             "settings": {
-                "foreground": "#93c0c6"
+                "foreground": "#93C0C6"
             }
         },
         {
@@ -202,19 +209,22 @@
                 "variable.argument",
                 "constant.other.reference.link.markdown",
                 "variable.language.this",
-                "meta.interpolation variable.other.readwrite.js"
+                "meta.interpolation variable.other.readwrite.js",
+                "markup.fenced_code.block.markdown string.unquoted.argument.shell"
             ],
             "settings": {
-                "foreground": "#94ddff"
+                "foreground": "#94DDFF"
             }
         },
         {
             "scope": [
                 "meta.function-call",
-                "support.type.primitive.ts"
+                "support.type.primitive.ts",
+                "meta.function.parameter.typehinted.php keyword.other.type.php",
+                "support.function.construct.output.php"
             ],
             "settings": {
-                "foreground": "#a074c4"
+                "foreground": "#A074C4"
             }
         },
         {
@@ -225,10 +235,11 @@
                 "support.constant.property-value",
                 "support.class.exception",
                 "variable.other.assignment.shell",
-                "code.log storage"
+                "code.log storage",
+                "support.constant.std.php"
             ],
             "settings": {
-                "foreground": "#b89094"
+                "foreground": "#B89094"
             }
         },
         {
@@ -247,7 +258,7 @@
                 "meta.toc-list.line-number.diff"
             ],
             "settings": {
-                "foreground": "#cf3be9"
+                "foreground": "#CF3BE9"
             }
         },
         {
@@ -256,10 +267,11 @@
                 "invalid.illegal.unrecognized-tag",
                 "meta.property-list entity.name.tag.css",
                 "meta.property-list meta.property-value.css",
-                "entity.name.section.vue"
+                "entity.name.section.vue",
+                "support.function.target.PHONY.makefile"
             ],
             "settings": {
-                "foreground": "#cd3f45"
+                "foreground": "#CD3F45"
             }
         },
         {
@@ -293,10 +305,12 @@
                 "punctuation.definition.block.open.end.vue",
                 "punctuation.definition.block.close.begin.vue",
                 "punctuation.definition.block.close.end.vue",
-                "keyword.definition.arrow.php"
+                "keyword.definition.arrow.php",
+                "constant.other.php",
+                "variable.language.makefile"
             ],
             "settings": {
-                "foreground": "#fda200"
+                "foreground": "#FDA200"
             }
         },
         {
@@ -314,10 +328,12 @@
                 "meta.directive.v-.vue-html variable.other.readwrite.js",
                 "meta.directive.bind.shorthand.vue-html variable.other.object.js",
                 "meta.directive.bind.shorthand.vue-html variable.other.readwrite.js",
-                "code.log support.type"
+                "code.log support.type",
+                "keyword.other.new.php",
+                "meta.class.ts meta.method.declaration.ts storage.type.ts"
             ],
             "settings": {
-                "foreground": "#ffdc11"
+                "foreground": "#FFDC11"
             }
         },
         {
@@ -328,6 +344,7 @@
                 "entity.name.module.js",
                 "entity.name.method.js",
                 "entity.name.function.php",
+                "meta.method-call.static.php meta.method-call.php entity.name.function.php",
                 "entity.name.function.js",
                 "entity.name.function.ts",
                 "storage.type.php",
@@ -348,15 +365,15 @@
                 "support.function.magic.php",
                 "variable.other.directive.modifier.vue-html",
                 "support.function.constructor",
-                "meta.function.parameter.typehinted.php support.class.php",
-                "meta.function.parameter.typehinted.php support.class.builtin.php",
                 "meta.function.shell",
                 "code.log invalid",
                 "meta.diff.header.from-file",
-                "markup.deleted.diff"
+                "markup.deleted.diff",
+                "support.class.php",
+                "support.class.builtin.php"
             ],
             "settings": {
-                "foreground": "#ff4545"
+                "foreground": "#FF4545"
             }
         },
         {
@@ -370,7 +387,8 @@
                 "variable.other.constant",
                 "constant.character.escape",
                 "meta.directive.v-.vue-html variable.other.readwrite.js",
-                "entity.name.tag.css"
+                "entity.name.tag.css",
+                "meta.function.parameter.typehinted.php keyword.other.type.php"
             ],
             "settings": {
                 "fontStyle": "underline"
@@ -390,7 +408,10 @@
                 "variable.language.this",
                 "variable.parameter",
                 "meta.directive.bind.shorthand.vue-html variable.other.object.js",
-                "meta.directive.bind.shorthand.vue-html variable.other.readwrite.js"
+                "meta.directive.bind.shorthand.vue-html variable.other.readwrite.js",
+                "meta.function.php keyword.other.type.php",
+                "meta.function.php storage.type.php",
+                "meta.function.php support.class.php"
             ],
             "settings": {
                 "fontStyle": "italic"
@@ -406,10 +427,35 @@
         },
         {
             "scope": [
-                "markup.bold"
+                "markup.bold",
+                "support.function.target.PHONY.makefile"
             ],
             "settings": {
                 "fontStyle": "bold"
+            }
+        },
+        {
+            "scope": "token.info-token",
+            "settings": {
+                "foreground": "#6796E6"
+            }
+        },
+        {
+            "scope": "token.warn-token",
+            "settings": {
+                "foreground": "#CD9731"
+            }
+        },
+        {
+            "scope": "token.error-token",
+            "settings": {
+                "foreground": "#F44747"
+            }
+        },
+        {
+            "scope": "token.debug-token",
+            "settings": {
+                "foreground": "#B267E6"
             }
         }
     ]
