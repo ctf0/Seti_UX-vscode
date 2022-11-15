@@ -78,7 +78,6 @@
                 "markup.underline.link",
                 "markup.underline.link.markdown",
                 "meta.diff.index",
-                "meta.element.input.vue-html",
                 "meta.scope.prerequisites.makefile",
                 "punctuation.definition.string",
                 "source.env string.quoted.double.env variable.other.env",
@@ -86,7 +85,11 @@
                 "string.quoted keyword.other",
                 "string.quoted",
                 "string.template",
-                "support.constant.media"
+                "support.constant.media",
+                "keyword.file.content.ignore",
+                "text.gitconfig",
+                "string.gitconfig",
+                "source.txt"
             ],
             "settings": {
                 "foreground": "#009FFF"
@@ -95,7 +98,6 @@
         {
             "scope": [
                 "constant.other.php",
-                "entity.name.directive.vue-html",
                 "entity.name.image.dockerfile",
                 "entity.other.attribute-name",
                 "entity.other.attribute-name.class.css",
@@ -106,9 +108,6 @@
                 "markup.inserted.diff",
                 "meta.attribute",
                 "meta.diff.header.to-file",
-                "meta.directive.bind.shorthand.vue-html",
-                "meta.directive.v-.vue-html",
-                "meta.directive.vue",
                 "meta.tag.any",
                 "meta.tag.block.any",
                 "meta.tag.inline.any",
@@ -117,7 +116,9 @@
                 "storage.type.alias.shell",
                 "support.type.object.module.js",
                 "text.html.markdown meta.attribute invalid",
-                "text.html.markdown meta.attribute"
+                "text.html.markdown meta.attribute",
+                "storage.gitconfig",
+                "entity.name.function.txt"
             ],
             "settings": {
                 "foreground": "#48FFC2"
@@ -146,7 +147,9 @@
                 "entity.name.variable.parameter.php",
                 "storage.type",
                 "variable.other.object.ts",
-                "entity.name.goto-label.php"
+                "entity.name.goto-label.php",
+                "comment.block.documentation.phpdoc.php source.php variable.other.php",
+                "entity.name.section.group-title.ini"
             ],
             "settings": {
                 "foreground": "#4F6D8C"
@@ -185,7 +188,6 @@
         },
         {
             "scope": [
-                "constant.character.escape.backslash.regexp",
                 "entity.name.section.markdown",
                 "keyword.other.phpdoc.php",
                 "keyword.other.type.php",
@@ -230,7 +232,8 @@
                 "meta.function-call",
                 "meta.function.parameter.typehinted.php keyword.other.type.php",
                 "meta.type.annotation.ts",
-                "support.function.construct.output.php"
+                "support.function.construct.output.php",
+                "constant.character.escape.backslash.regexp"
             ],
             "settings": {
                 "foreground": "#A074C4"
@@ -260,14 +263,14 @@
                 "entity.name.class",
                 "keyword.operator.quantifier.regexp",
                 "keyword.other.important",
-                "meta.directive.on.shorthand.vue-html",
                 "meta.object-literal.key.js",
                 "meta.toc-list.line-number.diff",
                 "string.unquoted.dockerfile",
                 "support.function.builtin.shell",
                 "variable.object.property",
                 "variable.other.object.property",
-                "variable.other.property"
+                "variable.other.property",
+                "constant.restriced.file.ignore"
             ],
             "settings": {
                 "foreground": "#CF3BE9"
@@ -275,7 +278,6 @@
         },
         {
             "scope": [
-                "entity.name.section.vue",
                 "entity.name.tag",
                 "invalid.illegal.unrecognized-tag",
                 "meta.other.type.phpdoc.php keyword.other.type.php",
@@ -294,27 +296,19 @@
                 "keyword.blade",
                 "keyword.definition.arrow.php",
                 "keyword.operator",
-                "keyword.operator.event-handler-shorthand.vue-html",
                 "meta.brace",
                 "meta.class.body.php comment.block.documentation.phpdoc.php meta.other.type.phpdoc.php",
-                "meta.directive.vue punctuation.separator.key-value.html",
                 "meta.function.echo.blade",
                 "meta.method-call.php",
                 "meta.tag",
                 "punctuation",
                 "punctuation.accessor",
-                "punctuation.definition.block.close.begin.vue",
-                "punctuation.definition.block.close.end.vue",
-                "punctuation.definition.block.open.begin.vue",
-                "punctuation.definition.block.open.end.vue",
-                "punctuation.definition.directive.prefix.vue-html",
                 "punctuation.definition.string.begin.markdown",
                 "punctuation.definition.string.end.markdown",
                 "punctuation.definition.string.template.begin",
                 "punctuation.definition.string.template.end",
                 "punctuation.section.embedded.begin",
                 "punctuation.section.embedded.end",
-                "punctuation.separater.key-value.vue-html",
                 "punctuation.separator.key-value",
                 "punctuation.separator.key-value.html",
                 "source.nginx constant.character",
@@ -322,7 +316,10 @@
                 "support.function.construct.begin",
                 "support.function.construct.end",
                 "variable.language.makefile",
-                "entity.other.keyframe-offset.percentage.css"
+                "entity.other.keyframe-offset.percentage.css",
+                "constant.other.symbol.asterisk.ignore",
+                "support.gitconfig",
+                "entity.name.type.txt"
             ],
             "settings": {
                 "foreground": "#FDA200"
@@ -338,11 +335,6 @@
                 "keyword.other.new.php",
                 "meta.attribute.unrecognized",
                 "meta.class.ts meta.method.declaration.ts storage.type.ts",
-                "meta.directive.bind.shorthand.vue-html variable.other.object.js",
-                "meta.directive.bind.shorthand.vue-html variable.other.readwrite.js",
-                "meta.directive.for.vue-html variable.other.readwrite.js",
-                "meta.directive.v-.vue-html variable.other.readwrite.js",
-                "source.directive.vue",
                 "storage.type.class",
                 "storage.type.function",
                 "support.class.builtin.js",
@@ -386,8 +378,7 @@
                 "support.constant.property-value.css",
                 "support.function.constructor",
                 "support.function.js",
-                "support.function.magic.php",
-                "variable.other.directive.modifier.vue-html"
+                "support.function.magic.php"
             ],
             "settings": {
                 "foreground": "#FF4545"
@@ -402,7 +393,6 @@
                 "entity.name.tag.css",
                 "markup.strike",
                 "markup.underline",
-                "meta.directive.v-.vue-html variable.other.readwrite.js",
                 "meta.function.parameter.typehinted.php keyword.other.type.php",
                 "variable.other.assignment.dockerfile",
                 "variable.other.constant",
@@ -418,8 +408,6 @@
                 "entity.other.inherited-class.php",
                 "keyword.blade",
                 "markup.italic",
-                "meta.directive.bind.shorthand.vue-html variable.other.object.js",
-                "meta.directive.bind.shorthand.vue-html variable.other.readwrite.js",
                 "meta.function.php keyword.other.type.php",
                 "meta.function.php storage.type.php",
                 "meta.function.php support.class.php",
@@ -436,9 +424,7 @@
             }
         },
         {
-            "scope": [
-                "meta.directive.for.vue-html variable.other.readwrite.js"
-            ],
+            "scope": [],
             "settings": {
                 "fontStyle": "italic underline"
             }

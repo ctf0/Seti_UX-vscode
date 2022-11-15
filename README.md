@@ -39,12 +39,6 @@
 
 - check [Customizing a Color Theme](https://code.visualstudio.com/docs/getstarted/themes#_customizing-a-color-theme) for any extra customizations needed.
 
-### Custom css
-
-- [gist](https://gist.github.com/ctf0/bebe3f0884664ee6e4eb6972f560e5a7)
-
-<br>
-
 ## Notes
 
 - colors are slightly different from the original, however u can use [this color sheet](https://github.com/ctf0/Seti_UX/blob/master/colors.md) as a guide.
@@ -56,6 +50,4 @@
 
 ## Syntax Packages
 
-- [vue](https://github.com/znck/vue-developer-experience)
-- [shell](https://github.com/jeff-hykin/better-shell-syntax)
 - [blade](https://github.com/onecentlin/laravel-blade-snippets-vscode)
