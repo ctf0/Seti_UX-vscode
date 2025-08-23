@@ -1,7 +1,28 @@
 {
     "$schema": "vscode://schemas/color-theme",
-    "type": "dark",
     "semanticHighlighting": true,
+    "semanticTokenColors": {
+        "class": "#FF4545",
+        "class.defaultLibrary": "#FF4545",
+        "enum": "#4F6D8C",
+        "enumMember": "#4F6D8C",
+        "event": "#48FFC2",
+        "function": "#FF4545",
+        "function.defaultLibrary": "#FF4545",
+        "interface": "#FDA200",
+        "macro": "#48FFC2",
+        "method": "#FF4545",
+        "namespace": "#4F6D8C",
+        "parameter": "#6288A1",
+        "property": "#CF3BE9",
+        "property.readonly": "#B89094",
+        "struct": "#4F6D8C",
+        "type": "#FF4545",
+        "type.defaultLibrary": "#FFDC11",
+        "variable": "#4F6D8C",
+        "variable.readonly": "#B89094",
+        "variable.readonly.defaultLibrary": "#B89094"
+    },
     "tokenColors": [
         {
             "scope": [
@@ -118,7 +139,8 @@
                 "text.html.markdown meta.attribute invalid",
                 "text.html.markdown meta.attribute",
                 "storage.gitconfig",
-                "entity.name.function.txt"
+                "entity.name.function.txt",
+                "keyword.other.phpdoc.php"
             ],
             "settings": {
                 "foreground": "#48FFC2"
@@ -189,7 +211,6 @@
         {
             "scope": [
                 "entity.name.section.markdown",
-                "keyword.other.phpdoc.php",
                 "keyword.other.type.php",
                 "meta.argument.shell",
                 "meta.function.php keyword.other.type.php",
@@ -283,7 +304,8 @@
                 "meta.other.type.phpdoc.php keyword.other.type.php",
                 "meta.property-list entity.name.tag.css",
                 "meta.property-list meta.property-value.css",
-                "support.function.target.PHONY.makefile"
+                "support.function.target.PHONY.makefile",
+                "comment.block.documentation.phpdoc.php keyword.other.type.php"
             ],
             "settings": {
                 "foreground": "#CD3F45"
@@ -298,6 +320,7 @@
                 "keyword.operator",
                 "meta.brace",
                 "meta.class.body.php comment.block.documentation.phpdoc.php meta.other.type.phpdoc.php",
+                "comment.block.documentation.phpdoc.php source.php",
                 "meta.function.echo.blade",
                 "meta.method-call.php",
                 "meta.tag",
@@ -498,5 +521,6 @@
                 "foreground": "#FFFFFF"
             }
         }
-    ]
+    ],
+    "type": "dark"
 }
